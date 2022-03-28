@@ -1,2 +1,6 @@
-repo for testing the features of AHMM_MLS, especially using SELAM simulations
+repo for testing the features of AHMM_MLS, 
+    especially using SELAM simulations and chrom 3R of D. melanogaster
+
+run ./make_and_retrieve to build and bring ahmm_mls binary 
+    from submodule into this directory
 
