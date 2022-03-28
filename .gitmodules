@@ -1,3 +1,6 @@
 [submodule "ahmm_mls"]
 	path = ahmm_mls
 	url = https://github.com/genicos/ahmm_mls
+[submodule "selam_simulations_testing/SELAM"]
+	path = selam_simulations_testing/SELAM
+	url = git@github.com:russcd/SELAM.git
