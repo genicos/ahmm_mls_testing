@@ -30,4 +30,4 @@ demography_file.write("0\ta0\tA\t"+str(m)+"\t0\n")
 demography_file.write("0\ta1\tA\t"+str(1-m)+"\t0\n")
 
 output_file = open("panel_generation/output_file", "w")
-output_file.write(str(t)+"\t0\t100\t0\tselam_output\n")
+output_file.write(str(t)+"\t0\t100\t0\tpanel_generation/selam_output\n")

@@ -1,0 +1,10 @@
+This directory is for testing ahmm_mls against single simulated population
+
+To set up the selected sites, alter
+    selection.txt
+
+To set up the population conditions, type the command
+    python3 produce_selam_pop_params.py <admix frac> <generations> <optional:pop size>
+
+To generate the simulated panel, run the command
+    ./gen_panel
