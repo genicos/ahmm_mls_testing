@@ -1,0 +1,4 @@
+cd ahmm_mls/src/
+make
+mv ahmm_mls ../../ahmm_mls_binary
+
