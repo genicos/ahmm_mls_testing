@@ -31,3 +31,12 @@ demography_file.write("0\ta1\tA\t"+str(1-m)+"\t0\n")
 
 output_file = open("panel_generation/output_file", "w")
 output_file.write(str(t)+"\t0\t100\t0\tpanel_generation/selam_output\n")
+
+run_sitefile = open("run_sitefile", "w")
+run_sitefile.write("../../ahmm_mls_binary -i panel -s sample -m "+str(m)+" "+str(t)+" -l site_file > OUT\n")
+
+
+
+pop_params = open("pop_params", "w")
+pop_params.write("m: "+str(m)+"\n")
+pop_params.write("t: "+str(t)+"\n")
