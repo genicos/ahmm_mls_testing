@@ -1,0 +1,4 @@
+rm -f panel_generation/selam_output
+panel_generation/SELAM -d panel_generation/demography -o panel_generation/output_file -c 2 0.427 0 -s selection.txt
+rm -f panel
+perl panel_generation/simulate_reads.pl 1 1 panel_generation/selam_output < panel_generation/drosophila.0.4.txt > panel
