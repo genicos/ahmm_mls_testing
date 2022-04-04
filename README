@@ -2,7 +2,7 @@ repo for testing the features of AHMM_MLS,
     especially using SELAM simulations and chrom 3R of D. melanogaster
     
 To make sure you get all the submodules on cloning, use this command:
-    $ git clone --recurse-submodules --remote-submodules git@github.com:genicos/ahmm_mls_testing.git
+    $ git clone --recurse-submodules git@github.com:genicos/ahmm_mls_testing.git
 
 run ./make_and_retrieve to build and bring ahmm_mls binary 
     from submodule into this directory
