@@ -8,3 +8,4 @@ To set up the population conditions, type the command
 
 To generate the simulated panel, run the command
     ./gen_panel
+
