@@ -1,0 +1,3 @@
+
+cd src
+seq 0 47 | parallel ./run_site_file {} o_site_file

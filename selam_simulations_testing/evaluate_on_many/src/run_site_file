@@ -1,0 +1,14 @@
+condition=$1
+site_file=$2
+
+m_array=(0.05 0.1 0.2 0.5)
+gen_array=(100 200 500)
+
+m_index=$(( ($condition%16) /4))
+gen_index=$((condition/16))
+
+prop=${m_array[$m_index]}
+generations=${gen_array[$gen_index]}
+
+
+../../../ahmm_mls_binary -i panels/panel${condition} -s sample -m $prop $generations -l $site_file > ../outputs/OUT${condition}

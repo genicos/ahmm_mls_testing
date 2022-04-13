@@ -35,7 +35,8 @@ output_file.write(str(t)+"\t0\t100\t0\tpanel_generation/selam_output\n")
 run_sitefile = open("run_sitefile", "w")
 run_sitefile.write("../../ahmm_mls_binary -i panel -s sample -m "+str(m)+" "+str(t)+" -l site_file > OUT\n")
 
-
+run_modelfile = open("run_modelfile", "w")
+run_modelfile.write("../../ahmm_mls_binary -i panel -s sample -m "+str(m)+" "+str(t)+" -M model_file -c 60 > OUT\n")
 
 pop_params = open("pop_params", "w")
 pop_params.write("m: "+str(m)+"\n")
