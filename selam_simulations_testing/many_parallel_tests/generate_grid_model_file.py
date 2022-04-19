@@ -9,9 +9,9 @@ fit0 = float(sys.argv[2])
 fit1 = float(sys.argv[3])
 fit2 = float(sys.argv[4])
 
-grid_width = 0.02
+grid_width = 0.01
 grid_x_tick = 0.001
-grid_height = 0.02
+grid_height = 0.01
 grid_y_tick = 0.001
 
 

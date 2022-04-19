@@ -1,1 +1,1 @@
-../../ahmm_mls_binary -i panel -s sample -m 0.2 300 -M model_file -c 60 > OUT
+../../ahmm_mls_binary -i panel -s sample -m 0.1 200 -M model_file -c 60 > OUT

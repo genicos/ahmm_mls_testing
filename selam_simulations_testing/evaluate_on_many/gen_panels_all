@@ -1,0 +1,6 @@
+
+
+seq 0 47 | parallel python3 selection_generator.py {}
+cd src
+seq 0 47 | parallel ./gen_panel {}
+ 
