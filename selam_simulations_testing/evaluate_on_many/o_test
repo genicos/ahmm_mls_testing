@@ -1,3 +1,5 @@
 
 cd src
 seq 0 47 | parallel ./run_site_file {} o_site_file
+cd ..
+python3 evaluate_outputs.py >> results
