@@ -1,0 +1,2 @@
+
+seq 0 49 | parallel python3 selection_generator.py {}
