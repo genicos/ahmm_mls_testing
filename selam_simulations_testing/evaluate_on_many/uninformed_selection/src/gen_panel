@@ -1,0 +1,7 @@
+condition=$1
+
+rm -f selam_outputs/selam_output${condition}
+./SELAM -d demographies/demography${condition} -o outputs/output${condition} -c 2 0.427 0 -s selections/selection${condition}
+rm -f panels/panel${condition}
+perl simulate_reads.pl 1 1 selam_outputs/selam_output${condition} < drosophila.0.4.txt > panels/panel${condition}
+

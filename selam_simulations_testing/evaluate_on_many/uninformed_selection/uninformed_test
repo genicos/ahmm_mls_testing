@@ -1,0 +1,6 @@
+
+
+cd src
+seq 0 49 | parallel ./run_uninformed_inference {}
+cd ..
+
