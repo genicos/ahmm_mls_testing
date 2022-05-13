@@ -1,3 +1,0 @@
-cd ../../SELAM/src
-make
-mv SELAM ../../evaluate_on_many/src
